@@ -8,13 +8,23 @@ const JSXRules = () =>{
                 <dl>
                     <dt>Resembles HTML</dt>
                     <dd>It's not. It's actually closer to JavaScript.</dd>
-                    <dt>REact Elements</dt>
+                    <dt>React Elements</dt>
                     <dd>These are used to construct and update the DOM, or what you see on the screen.</dd>
                     <dt>Not Required</dt>
                     <dd>You can write in vanilla JS, but most people use JSX.</dd>
                 </dl>
                 <hr />
             </div>
+        </div>
+    )
+}
+
+const NormalComponent = () =>{
+    return(
+        <div style={{ border: '2px solid black'}}>
+            <h1>Normal Functional Component</h1>
+            <p>This was constructed with JSX in the return.</p>
+            <img src ="https://pbs.twimg.com/media/D0zL82mXkAA0zFs.jpg" />
         </div>
     )
 }
