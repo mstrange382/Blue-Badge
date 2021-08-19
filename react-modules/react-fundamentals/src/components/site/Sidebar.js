@@ -11,6 +11,7 @@ import JSXRules from "../concepts/JSXRules";
 import State from "../concepts/State";
 import Effects from "../concepts/Effects";
 import PropsDemo from "../concepts/PropsDemo";
+import Hooks from "../concepts/Hooks";
 
 const Sidebar = () => {
     return(
@@ -24,6 +25,7 @@ const Sidebar = () => {
                     <li><Link to ="/state">useState</Link></li>
                     <li><Link to ="/effects">useEffect</Link></li>
                     <li><Link to ="/propsdemo">Props Demo</Link></li>
+                    <li><Link to="/hooks">Hooks</Link></li>
                     
                 </ul>
             </div>
@@ -37,6 +39,7 @@ const Sidebar = () => {
                     <Route exact path="/state"><State /></Route>
                     <Route exact path="/effects"><Effects/></Route>
                     <Route exact path="/propsdemo"><PropsDemo/></Route>
+                    <Route exact path="/hooks"><Hooks></Hooks></Route>
                 </Switch>
             </div>
         </div>
